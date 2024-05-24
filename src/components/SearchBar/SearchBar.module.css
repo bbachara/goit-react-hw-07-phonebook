@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 4px;
+}
+
+.field {
+  flex-grow: 0.2;
+  padding: 8px;
+  font: inherit;
+}
+
+.field:focus {
+  outline-color: #1976d2;
+}
