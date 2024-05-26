@@ -1,20 +1,3 @@
-// import { Layout } from './Layout/Layout';
-// import { AppBar } from './AppBar/AppBar';
-// import { ContactForm } from './ContactForm/ContactForm';
-// import { ContactList } from './ContactList/ContactList';
-// import { SearchBar } from './SearchBar/SearchBar';
-
-// export const App = () => {
-//   return (
-//     <Layout>
-//       <AppBar />
-//       <SearchBar />
-//       <ContactForm />
-//       <ContactList />
-//     </Layout>
-//   );
-// };
-
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchContacts, addContact, deleteContact } from '../redux/operations';

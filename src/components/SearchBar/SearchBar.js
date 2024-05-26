@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { setSearchQuery } from '../../redux/actions';
+import { setSearchQuery } from '../../redux/filtersSlice';
 import css from './SearchBar.module.css';
 
 export const SearchBar = () => {

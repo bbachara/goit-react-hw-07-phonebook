@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Button } from '../Button/Button';
-import { addContact } from '../../redux/actions';
+import { addContact } from '../../redux/operations';
 import { getContacts } from '../../redux/selectors';
 import css from './ContactForm.module.css';
 
 export const ContactForm = () => {
   const dispatch = useDispatch();
-  const contacts = useSelector(getContacts);
+  const contacts = useSelector(getContacts).items;
   const [error, setError] = useState('');
 
   useEffect(() => {
